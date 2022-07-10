@@ -4,8 +4,37 @@
   This program calls some functions that are either missing or incomplete.
   Update the code so that you get the expected result.
 */
+let num = 0
+function isNegative(num) {
+  if (num > 1 || num < -1)
+  return true;
 
-function isNegative() {}
+}
+console.log(num);
+
+let between = 5;
+function isBetween5and10(between) {
+  if (between >= 5 && between < 11)
+  return true;
+}
+console.log(isBetween5and10);
+
+let nameShort = 'short';
+function isShortName(nameShort) {
+  if (nameShort === 'Daniel')
+  return true;
+}
+
+console.log(isShortName);
+
+let withD = 'Daniel';
+function startsWithD(withD) {
+  if (withD == 'D')
+  return true;
+}
+
+console.log(startsWithD);
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE

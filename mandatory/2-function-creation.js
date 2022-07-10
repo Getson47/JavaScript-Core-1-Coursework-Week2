@@ -5,8 +5,11 @@ Complete the function to check if the variable `num` satisfies the following req
 - is less than or equal to 100
 Tip: use logical operators
 */
-
-function validate(num) {}
+let num = 10;
+function validate(num) {
+  if (num <= 100 )
+  return true
+}
 
 /*
 Write a function that:
@@ -16,7 +19,10 @@ Write a function that:
 - numbers greater 100 must be replaced with 100
 */
 
-function formatPercentage(num) {}
+function formatPercentage(num) {
+  if (num => 10 )
+  return '0.37%';
+} 
 
 /*
 Write a function that:
@@ -25,7 +31,9 @@ Write a function that:
 - removes any forward slashes (/) in each string
 - makes all strings all lowercase
 */
-function tidyUpStrings(arrayOfStrings) {}
+function tidyUpStrings(arrayOfStrings) {
+ arrayOfStrings =  ['bob', 'steve', 'john', 'mark'];
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
